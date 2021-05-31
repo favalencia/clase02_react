@@ -39,8 +39,44 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Ejercicio
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 4) Desarrollar una Landing Page
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Instalar y agregar bootstrap
+
+*   `npm install bootstrap@5.0.0-beta2`
+*   recordar que import de modulos siempre van primero
+*   en index.js agregar luego de los import `import 'bootstrap/dist/css/bootstrap.min.css'`
+*   Reglas
+    *   identar código
+    *   Utilzar la siguiente estructura de directorios
+
+    src
+     |- index.js
+     |- App.js
+     |- components
+     |   |- item-primary
+     |       |- ItemPrimary.jsx
+     |       |- ItemPrimary.css
+     |- container
+     |   |- home
+     |       |- Home.jsx
+     |       |- Home.css
+
+*   Crear componentes
+    *   Footer
+    *   Heaeder
+    *   Menu
+    *   SectionPrincipal
+    *   SectionSecondary
+    *   ContactForm
+*   Utilizar al menos un componente con `css modules`
+
+* * *
+
+Salida del proyecto
+
+![imagen](https://github.com/favalencia/clase02_react/blob/main/wiki/img/pagina.jpg)
+
+
