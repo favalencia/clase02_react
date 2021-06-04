@@ -22,7 +22,7 @@ export default function Menu() {
 
                 {/* Nav Item - Dashboard */}
                 <li className="nav-item active">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#/">
                     <i className="fas fa-fw fa-tachometer-alt"></i>
                     <span>Soy el menú</span></a>
                 </li>
@@ -37,7 +37,7 @@ export default function Menu() {
 
                 {/* Nav Item - Pages Collapse Menu */}
                 <li className="nav-item">
-                <a className="nav-link" href="#">     
+                <a className="nav-link" href="#/">     
                     <i className="fas fa-fw fa-cog"></i>
                     <span onClick={handleClick}>Item</span>
                 </a>
@@ -45,7 +45,7 @@ export default function Menu() {
 
                 {/* Nav Item - Utilities Collapse Menu */}
                 <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#/">
                         <i className="fas fa-fw fa-wrench"></i>
                     <span onClick={handleClick}>Item</span>
                 </a>
@@ -61,7 +61,7 @@ export default function Menu() {
 
                 {/* Nav Item - Pages Collapse Menu */}
                 <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#/">
                      <i className="fas fa-fw fa-folder"></i>
                     <span onClick={handleClick}>Item</span>      
                     </a>         
@@ -69,14 +69,14 @@ export default function Menu() {
 
                 {/* Nav Item - Charts */}
                 <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#/">
                     <i className="fas fa-fw fa-chart-area"></i>
                     <span onClick={handleClick}>Item</span></a>
                 </li>
 
                 {/* Nav Item - Tables */}
                 <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#/">
                     <i className="fas fa-fw fa-table"></i>
                     <span onClick={handleClick}>Item</span></a>
                 </li>
